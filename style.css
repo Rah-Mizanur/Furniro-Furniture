@@ -1,47 +1,114 @@
-body{
+body {
     margin: 00;
     padding: 00;
     font-family: "Poppins";
 }
 
-.main-header{
+.main-header {
     background: white;
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
     border-bottom: 1px solid lightseagreen;
 }
-.full-logo{
+
+.full-logo {
     display: flex;
     align-items: center;
     gap: .50vw;
     margin-left: 5vw;
-    
+
 }
-.full-logo img{
+
+.full-logo img {
     height: 1.4vw;
     /* width: 15%; */
 }
-.nav-link ul li{
+
+.nav-link ul li {
     display: flex;
     align-items: center;
     gap: 4vw;
     margin: 00 15vw;
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
     text-transform: capitalize;
 }
-.font{
+
+.font {
     display: flex;
     gap: 4vw;
     margin-left: 5vw;
 }
-.hero-banner{
-    background-image: url(./images/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+
+.hero-banner {
+    position: relative;
+}
+
+.hero-banner-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 00;
+}
+
+.hero-banner-text {
+    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 4vh 10w 4vh 50vw;
-    background-repeat: no-repeat;
+    gap: .2vh .2vw;
+    /* width: 40%; */
+    /* height: ; */
+    z-index: 1;
+    padding: 62px 37px 37px 37px;
+    /* border: 10px solid lightseagreen; */
+    border-radius: 10px;
+
+    background: rgb(255, 243, 227);
+    top: 200px;
+    left: 800px;
+    width: 30vw;
+
+}
+
+.hero-banner-text h5 {
+    margin-bottom: 00px;
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.hero-banner-text h1 {
+    margin: 00px;
+    color: rgb(184, 142, 47);
+    font-size: 52px;
+    font-weight: 700;
+    text-align: left;
+    font-family: Poppins;
+    text-transform: capitalize;
+}
+
+.hero-banner-text p {
+    color: rgb(51, 51, 51);
+
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.hero-banner-text button {
+    background: rgb(184, 142, 47);
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    width: 8vw;
+    /* padding: 00px 10px; */
+    text-align: left;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid rgb(184, 142, 47);
 }
